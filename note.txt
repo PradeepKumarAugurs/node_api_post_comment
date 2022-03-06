@@ -1,0 +1,86 @@
+https://www.udemy.com/course/feelfreetocode-api-with-express-2020/
+
+
+npm init -y
+git init
+npm install express body-parser mysql2 sequelize nodemon express-validator express-session
+npm install --save-dev sequelize-cli
+npx sequelize-cli init
+npx sequelize-cli model:generate --name User --attributes name:string,email:string,password:string
+connect to your local DB
+npx sequelize-cli db:migrate
+npx sequelize-cli migration:generate --name order-outlet-association
+npx sequelize db:seed:all OR  npx sequelize db:seed --seed seed_file_name
+npm i ejs
+npm i express-ejs-layouts
+npm install bcrypt
+npm install express-flash --save
+npm install passport passport-local
+npm install connect-flash
+npm install cookie-parser
+
+touch index.js
+"start": "nodemon app.js"
+npm start
+  
+A PHP Error was encountered
+Severity: Core Warning
+
+Message: Module 'mbstring' already loaded
+
+Filename: Unknown
+
+Line Number: 0
+
+Backtrace:
+
+modified:   
+
+1)      app/Http/Controllers/API/CollectionController.php
+        modified:   app/Http/Controllers/API/ProductController.php   
+        modified:   app/Http/Controllers/API/UserController.php      
+        modified:   app/Models/Collection.php
+        modified:   routes/api.php
+
+
+
+        Thank you for registering with TCS !Please note your Reference ID: DT20219394162 for all further communication with TCS.
+
+An Email with your CT/DT Reference ID and Password as entered by you has been sent to your email ID mention in the Registration Form.
+
+Click on "Continue" and enter your password to complete Application Form and access Campus Commune.
+
+
+
+6674877933
+
+
+
+Name - Pradip Shiv Kumar 
+
+ID - Pradip25
+
+Pass - pradip96
+PradeepKumar5811
+
+prdpkr5811
+
+Link - www.shadivivahmatrimonial.com
+
+npm install react-router-dom
+
+open terminal
+
+1) cd backend
+2) npm install
+3) change database connection on backend/config/config.json
+4) npx sequelize-cli db:migrate
+5) npx sequelize db:seed --seed 20220110044412-user-seeder
+6) npx sequelize db:seed --seed 20220110045156-product-seeder
+7) npx sequelize db:seed --seed 20220110045841-outlet-seeder
+8) npx sequelize db:seed --seed 20220110050833-order-seeder
+9) npm start
+
+1) cd frontend
+2) npm install
+3) npm start
